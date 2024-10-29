@@ -31,7 +31,7 @@ export function ProductPage() {
   if (error) return <p>Error: {error}</p>;
 
   return (
-    <div className="flex flex-col bg-slate-100 p-4 rounded-xl my-8 gap-4 items-start justify-center max-w-[1050px] mx-auto">
+    <div className="flex flex-col bg-white shadow p-4 rounded-xl my-8 gap-4 items-start justify-center max-w-[1050px] mx-auto">
       <BreadcrumbView />
       {product ? <Product product={product} /> : <p>Product not Found</p>}
     </div>
