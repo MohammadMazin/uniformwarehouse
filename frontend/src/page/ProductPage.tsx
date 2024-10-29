@@ -1,4 +1,4 @@
-import { apiUrl } from "@/App";
+import { apiUrl } from "@/utils/constants";
 import { BreadcrumbView } from "@/components/Breadcrumb";
 import { SkeletonCard } from "@/components/Loading";
 import { Product, ProductType } from "@/components/Product";

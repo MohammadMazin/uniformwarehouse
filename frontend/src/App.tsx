@@ -3,8 +3,6 @@ import "./App.css";
 import { Navigation } from "./components/Navigation";
 import { ProductPage } from "./page/ProductPage";
 
-export const apiUrl = import.meta.env.VITE_BACKEND_URL;
-
 const App: React.FC = () => {
   return (
     <div className="app">
