@@ -31,7 +31,7 @@ export function Product({ product }: ProductProps) {
         <hr />
         <span className="flex gap-2">
           {product.categories?.map((category) => (
-            <Badge>{category}</Badge>
+            <Badge variant={"outline"}>{category}</Badge>
           ))}
         </span>
         <p className="text-sm md:text-base text-start text-black/80">
